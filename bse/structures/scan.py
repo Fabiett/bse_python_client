@@ -9,10 +9,6 @@ from bse.utils import RecrNameSpace
 
 class ScanNotImplemented:
     @property
-    def site(self) -> Site:
-        raise NotImplementedError
-
-    @property
     def scan_target(self):
         # TODO: Test this query to understand exactly what it returns
         raise NotImplementedError
