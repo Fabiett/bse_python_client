@@ -1,1 +1,1 @@
-from .structures import BseServer
+from bse.structures.bseserver import BseServer
